@@ -1,0 +1,13 @@
+{
+  "name": "always-on-top",
+  "main": "./lib/always-on-top",
+  "version": "0.0.0",
+  "description": "Set the window always on top of other windows",
+  "keywords": [],
+  "repository": "https://github.com/inkdropapp/always-on-top",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": "^5.3.1"
+  },
+  "dependencies": {}
+}
