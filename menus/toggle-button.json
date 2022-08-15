@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Toggle Always On Top",
+        "command": "always-on-top:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "always-on-top",
+          "submenu": [
+            {
+              "label": "Toggle Always On Top",
+              "command": "always-on-top:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
