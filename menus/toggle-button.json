@@ -12,7 +12,7 @@
       "label": "Plugins",
       "submenu": [
         {
-          "label": "always-on-top",
+          "label": "Always on Top",
           "submenu": [
             {
               "label": "Toggle Always On Top",
