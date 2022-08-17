@@ -22,15 +22,25 @@
   cursor: pointer;
   outline: none;
 
-  path,
-  circle {
-    stroke: var(--light-text-color);
+  svg:not(:root) {
+    overflow: visible;
+    stroke-width: 1.5px;
   }
 
-  &.active,
   &:hover {
     background: var(--white-active);
     color: var(--light-text-color);
     border-color: var(--light-text-color);
   }
+
+  &.active {
+    color: var(--primary-color) !important;
+    svg:not(:root) {
+      stroke-width: 3px;
+    }
+  }
+}
+
+.editor-header-layout:hover .editor-header-always-on-top {
+  opacity: 1;
 }
